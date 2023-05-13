@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 5482230}
   - component: {fileID: 13654204}
   - component: {fileID: 19597056}
-  - component: {fileID: 8294721735125084573}
+  - component: {fileID: 1781814835586965128}
   - component: {fileID: 11402594}
   - component: {fileID: 11450346}
   m_Layer: 0
@@ -519,7 +519,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &9527630
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -536,7 +536,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!54 &5482230
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -589,7 +589,7 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &8294721735125084573
+--- !u!114 &1781814835586965128
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -598,9 +598,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 113348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e29c585d989c6e4592ce519178b0ede, type: 3}
+  m_Script: {fileID: 11500000, guid: b2744d5cbf49f8f4cbda73d6507a236d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  atualState: 0
+  target: {fileID: 0}
+  wayPoint1: {fileID: 0}
+  wayPoint2: {fileID: 0}
+  waitTime: 0
+  listenRadius: 0
 --- !u!114 &11402594
 MonoBehaviour:
   m_ObjectHideFlags: 0

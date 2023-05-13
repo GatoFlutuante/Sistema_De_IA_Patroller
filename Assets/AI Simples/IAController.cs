@@ -133,7 +133,7 @@ public class IAController : MonoBehaviour
 	private bool PertoDoWaypoint()
 	{
 		distanceByWayPoints = Vector3.Distance(transform.position, target.transform.position);
-		return distanceByWayPoints <= .1f;
+		return distanceByWayPoints <= 2f;
 	}
 
 	/// <summary>
